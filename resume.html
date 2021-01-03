@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- FontAwesome Link -->
+        <script src="https://kit.fontawesome.com/761c550c42.js" crossorigin="anonymous"></script>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!-- Google Fonts Link-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>Cynthia Mojica</title>
+    </head>
+
+    <body class="bg-dark">
+        <script>
+            document.body.classList.add('fade');
+          </script>
+        <div class="wrapper">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            
+                    <a class="navbar-brand" href="index.html">Cynthia Mojica</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <!-- Nav Bar items; collapsible for smaller screens -->
+                    <div class="collapse navbar-collapse float-right" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                           
+    
+                            <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="resume.html">Resume <span class="sr-only">(current)</span></a>
+                        </li>
+                        </ul>
+                    </div>
+            </nav>
+                <!-- Resume Contact Info -->
+                <section class="container resume text-light">
+                        <div class="row" id="resume">
+                            <div class="col-sm-3" id="logo">
+                                <h1 class="resume-name text-center"></h1>
+                                <div><img id="profile-pic" src="./assets/images/cynphoto.jpg" alt="Cynthia profile pic"></div>
+                                <br>
+                                <h5 class="text-center">Front End Developer</h5>
+                                <br>
+                                <div class="resume-links">
+                                    <div><i class="fas resume-icon fa-map-marker-alt"></i> 138 Pinedale Ave</div>
+                                    <div>Sacramento, Ca 95838</div>
+                                    <br>
+                                    <div><i class="fas resume-icon fa-envelope-square"></i><a href="mailto:cmojica1231@gmail.com" target="_blank"> cmojica1231@gmail.com</a></div>
+                                    
+                                    <div><i class="fas resume-icon fa-mobile-alt"></i> 916-289-4097</div>
+                                    
+                                    <div><i class="fab resume-icon fa-linkedin"></i><a href="https://www.linkedin.com/in/cynthia-mojica-aa1408b1" target="_blank">LINKEDIN</a></div>
+                                    
+                                    <div><i class="fab resume-icon fa-github"></i><a href="https://github.com/cynmojica1231" target="_blank">GITHUB</a></div>
+                                    
+                                    
+                                    <br><br><br>
+                                    
+                                    <!-- Skills with Language Icons -->
+                                    <h5>Skills</h5>
+                                
+                                    <div><i class="fab html-logo resume-icon fa-html5"></i> HTML5</div>
+                                    
+                                    <div><i class="fab css-logo resume-icon fa-css3"></i> CSS3</div>
+                                    
+                                    <div><i class="fab js-logo resume-icon fa-js-square"></i> JavaScript</div>
+                                    
+                                    <div><i class="fab n-js-logo resume-icon fa-node"></i> Node.js</div>
+                                    <div><img src="./assets/images/logo-mysql-26341.png" style="max-width: 20px"> MySQL</div>
+                                    <div><img src="./assets/images/mongodb-logo.png" style="max-width: 20px"> mongoDB</div>
+                                    <div><i class="fab react-logo resume-icon fa-react"></i> React</div>
+                                    <br><br><br>
+                                    <!-- PDF Button -->
+                                    <div><a href="./assets/CM Resume.pdf" target="_blank" type="button" class="btn btn-primary"><i class="fas fa-file-pdf"></i> Download PDF Version</a></div>
+                                </div>
+                            </div>
+            
+                          <div class="col-sm-8">
+                            <div id="summary">
+                                <!-- SUMMARY -->
+                                <h3>Summary</h3>
+                                <ol class="list-unstyled">
+                                    <li>Cynthia Mojica is a RACF Administrator at State Controller’s Office.
+                                        Her role is to provide technical installation, configuration,
+                                        administration, performance… access and profile issue subject matter
+                                        expert. Administration and management of complex RACF infrastructure
+                                        with multiple databases.</li><br>
+                                    <li>Her background in mainframe and troubleshooting gave her the desire
+                                        to seek a more challenging job. Cynthia considers herself a ‘forever
+                                        student,’ eager to build on her academic interest to front and
+                                        backend of programming.</li>
+                                </ol>
+                            </div>
+                            <br>
+                            <hr>
+                            <!-- EXPERIENCE -->
+                            <h3>Experience</h3>
+                            <br>
+                            <div class='position'>
+                                <h4>State Controllers Office <small class='citystate'>Sacramento, CA</small></h4>
+                                <strong>Information Technology Specialist I <span class='dates pull-right'> - June 2012,- PRESENT</span></strong>
+                               
+                                <ul class="circle">
+                                    <br>
+                                    <li>Mainframe Access Control – Perform and provide complex detailed Resource Access Control Facility (RACF) administration services for an IBM mainframe MVS z/OZ, JES3 system, and secure file exchange systems using Vanguard, and administration tools and applications such as CICS, IDMS, ISPF, TSO, MultiSess and JCL services.</li>
+                    
+                                </ul>
+                            </div>
+                            <br>
+                            <div class='position'></div>
+                                <h4>Staff Programmer Analyst <small class='citystate'>Sacramento,CA</small></h4>
+                                <strong><span class='dates pull-right'>2007-2012</span></strong>
+                                <ul class="circle">
+                                    <br>
+                                    <li>Provide technical support to Production Operations (PO) and programmer in creating and altering Dialogs and Job Control Language (JCL). Assist with production processing, modify schedules and support Staff in system testing. Created panels and manipulating skeleton through JCL program.</li>
+                                    <li>Install new Mark IV processes into production and programs. Provide on-line monitor support for customers. Develop and provide operations training on specialized topic or new PO applications such as utility programs, the conversion processes, FTP, ESP and JCL.</li>
+                                    
+                                </ul>
+                            </div>
+                            <hr>
+                            <!-- EDUCATION -->
+                            <h3>Education</h3>
+                            <br>
+                            <div class='position'>
+                                <h4>UC Davis <small class='citystate'>Sacramento,CA</small></h4>
+                                <strong>Web Coding Bootcamp - Full Stack Flex <span class='dates pull-right'>- June, 2020 - PRESENT</span></strong>
+                                <ul class="circle">
+                                    <li>Curriculum covering a vast array of computer programming such as HTML5, CSS3, JavaScript, Java, jQuery, Node.js, Responsive Design, Heroku, Git, User Authentication, React.js, MySQL, and MongoDB.</li>
+                                    <li>Planned completion of course: December, 2020.</li>
+                                </ul>
+                            </div>
+                            <div class='position'>
+                                <h4>American River College <small class='citystate'>Sacramento,CA</small></h4>
+                                <strong>Computer Information Technology<span class='dates pull-right'>- June 2003 - June, 2004</span></strong>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <footer id="sticky-footer" class="py-3 mt-auto bg-dark fixed-bottom">
+                        <div class="container text-right">
+                          <small> Copyright &copy; <a href="contact.html">Cynthia Mojica</a></small>
+                        </div>
+                    </footer>
+                </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(e) {
+              document.body.classList.remove('fade');
+            });
+          </script>
+    </body>
+</html>
