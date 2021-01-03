@@ -4,7 +4,7 @@
 
 ## Description
 
-This is an updated portfolio 2
+Updated portfolio featuring projects 1 and 2 and at least four exemplary homework assignments.
 
 ## Portfolio Screenshots:
 
