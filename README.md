@@ -1,6 +1,10 @@
 # Update Portfolio 2
 
-[![GitHub license]
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Description
+
+This is an updated portfolio 2
 
 #### Screenshots:
 
